@@ -111,10 +111,11 @@
 	)
 )
 
+;; Tests for Simplify<Query>
 ; (simplify '(s-neg (s-neg (s-sub (s-var a) (s-var b)))))
 ; (simplify '(s-neg (s-sub (s-var a) (s-var b))))
 ; (simplify '(s-neg (s-neg (s-neg (s-sub (s-var a) (s-var b))))))
-(simplify '(s-sub (s-neg (s-var a)) (s-neg (s-var b))))  
+; (simplify '(s-sub (s-neg (s-var a)) (s-neg (s-var b))))  
 ; (simplify '(s-sub (s-var a) (s-neg (s-var b))))
 ; (simplify '(s-add (s-var a) (s-neg (s-var b))))
 ; (simplify '(s-add (s-neg (s-var a) (s-var b))))
